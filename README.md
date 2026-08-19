@@ -69,7 +69,7 @@ The email headers were reviewed to identify suspicious sender information and in
 * Suspicious source IP
 * Urgent account-suspension message
 
-![Email Header Analysis](screenshots/01_Email_Header_Sender_Analysis.png)
+![Email Header Analysis](01_Email_Header_Sender_Analysis.png)
 
 ---
 
@@ -85,7 +85,7 @@ Email authentication results were analyzed to determine whether the sender could
 
 The failure of all three authentication mechanisms increased the confidence that the email was fraudulent.
 
-![SPF DKIM DMARC](screenshots/02_SPF_DKIM_DMARC_Authentication.png)
+![SPF DKIM DMARC](02_SPF_DKIM_DMARC_Authentication.png)
 
 ---
 
@@ -106,7 +106,7 @@ http://login-microsoft-security.example/verify
 
 The URL was analyzed **without opening or executing it**.
 
-![Suspicious URL Analysis](screenshots/03_Suspicious_URL_Analysis.png)
+![Suspicious URL Analysis](03_Suspicious_URL_Analysis.png)
 
 ---
 
@@ -122,7 +122,7 @@ The attachment was analyzed using **static analysis techniques only**.
 
 No browser execution or active interaction with the attachment was performed.
 
-![Attachment Evidence](screenshots/04_Attachment_Evidence.png)
+![Attachment Evidence](04_Attachment_Evidence.png)
 
 ---
 
@@ -144,7 +144,7 @@ The HTML content was also inspected using PowerShell to identify embedded URLs.
 http://login-microsoft-security.example/verify
 ```
 
-![Attachment Static Analysis](screenshots/05_Attachment_Static_Analysis.png)
+![Attachment Static Analysis](05_Attachment_Static_Analysis.png)
 
 ---
 
