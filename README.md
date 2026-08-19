@@ -205,7 +205,7 @@ If this were a real-world incident, recommended actions would include:
 
 A detailed investigation report is available here:
 
-[`Phishing_Email_Analysis_Report.md`](report/Phishing_Email_Analysis_Report.md)
+[`Phishing_Email_Analysis_Report.md`](Phishing_Email_Analysis_Report.md)
 
 ---
 
