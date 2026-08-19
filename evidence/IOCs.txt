@@ -1,0 +1,22 @@
+PHISHING EMAIL ANALYSIS - IOC LIST
+
+Sender Email:
+security@micros0ft-support.example
+
+Reply-To:
+account-verification@fake-support.example
+
+Sender Domain:
+micros0ft-support.example
+
+Source IP:
+192.0.2.55
+
+Suspicious URL:
+http://login-microsoft-security.example/verify
+
+Attachment:
+Account_Verification.html
+
+SHA-256:
+577E3F06DBA034B55BA85E8EBEFD852A4C7CCC72C4F41A855DABA6F15742580B5
